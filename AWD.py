@@ -81,7 +81,7 @@ os.system('clear')
 loop = 'true'
 while loop == 'true':
     username = raw_input('\x1b[1;97m\xe2\x9e\xa3 USERNAMY TOOLAKA : ')
-    if username = B4BY:
+    if username == B4BY:
         password = raw_input('\x1b[1;97m\xe2\x9e\xa3 PASWORDY TOOLAKA : ')
         if password == DRAGON:
             print '\x1b[1;92m[\xe2\x9c\x93] BZHY PROFISOR' + username
