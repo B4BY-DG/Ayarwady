@@ -81,7 +81,7 @@ os.system('clear')
 loop = 'true'
 while loop == 'true':
     os.system (" toilet -F gay -f slant AYARWADY")
-    username = raw_input('\x1b[1;97m👹 USERNAME TOOL=>>: \33[1;96m')
+    username = raw_input('\x1b[1;97m👹 USERNAME TOOL =>>: \33[1;96m')
     if username == B4BY:
         password = raw_input('\x1b[1;97m👹 PASSWORD TOOL =>>: \033[1;96m')
         if password == DRAGON:
