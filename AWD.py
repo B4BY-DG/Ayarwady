@@ -149,7 +149,7 @@ def main_select():
 def login():
     
     try:
-        token = open('access_token.txt', 'r').read()
+        token = open('token.txt', 'r').read()
         menu()
     except (KeyError, IOError):
         os.system('clear')
@@ -221,7 +221,7 @@ def token():
     os.system('clear')
     
     try:
-        token = open('access_token.txt', 'r').read()
+        token = open('token.txt', 'r').read()
         menu()
     except (KeyError, IOError):
         print logo
@@ -384,7 +384,7 @@ def pb():
 		print (R + ' Select a valid option !')
 		pb()
 	print (S + '[☆]' + P + ' Total Friends: ' + W + str(len(id)))
-	psb(S + '[☆]' + S + ' Haunter Tool Started Cloning Please Wait........... .To stop process  click on CTRL ~ Z')
+	psb(S + '[☆]' + S + ' Tool Started Cracking Please Wait........... .To stop process  click on CTRL ~ Z')
 	print
 	print (S + 50*'-')
 	print
@@ -481,7 +481,7 @@ def pb():
 	print
 	print(S+'Process has been completed CP ID Open After 72 Hours')
 	print(Y+'Total '+G+'OK'+S+'/'+P+'CP'+S+' = '+G+str(len(oks))+S+'/'+R+str(len(cps)))
-	print(S+'HAUNTERBOY')     
+	print(S+'AYARWADY BARMA')     
 	print
 	raw_input(R + 'Back')
 	os.system('python2 AWD.py')
