@@ -383,9 +383,9 @@ def pb():
 	else:
 		print (R + ' Select a valid option !')
 		pb()
-	print (S + '[☆]' + P + ' Total Friends: ' + W + str(len(id)))
-	psb(S + '[☆]' + S + ' Tool Started Cracking Please Wait........... .To stop process  click on CTRL ~ Z')
-	print
+	print (S + '[👹]' + P + ' Total Friends: ' + W + str(len(id)))
+	psb(S + '[👹]' + S + ' Tool Started Cracking Please Wait..........')
+	psb(S + '[👹]' + S + ' If You Want to stop process! Press CTRL+ Z')
 	print (S + 50*'-')
 	print
 	def main(arg):
