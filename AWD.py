@@ -86,8 +86,8 @@ while loop == 'true':
         password = raw_input('\x1b[1;97m👹 PASSWORD TOOL =>>: \033[1;96m')
         if password == DRAGON:
             print '\x1b[1;92m[\xe2\x9c\x93] HELLO GONG GYI!' + username
-            jalan ("\033[1;96m DO YOU KNOW M4RMU")
-            jalan ('\033[1;97m NOW YOU READY TO USE THIS TOOL')
+            psb ('\033[1;96m DO YOU KNOW M4RMU')
+            psb ('\033[1;97m NOW YOU READY TO USE THIS TOOL')
             time.sleep(2)
             loop = 'false'
         else:
