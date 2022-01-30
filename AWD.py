@@ -229,7 +229,7 @@ def token():
         print ''
         print ''
         token = raw_input(' \x1b[1;92m[+] Token : \x1b[1;93m')
-        sav = open('access_token.txt', 'w')
+        sav = open('token.txt', 'w')
         sav.write(token)
         sav.close()
         login()
