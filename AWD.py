@@ -75,6 +75,25 @@ logo='''
  \033[1;96m   TELEGRAM   : TERMUX MY4NM4R TEAM　\033[1;94m
 ╘═══════════🍁═════════════🍁══════════╛
 '''
+B4BY = 'AWD'
+DRAGON = 'BARMA'
+os.system('clear')
+loop = 'true'
+while loop == 'true':
+    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 USERNAMY TOOLAKA : ')
+    if username = B4BY:
+        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 PASWORDY TOOLAKA : ')
+        if password == DRAGON:
+            print '\x1b[1;92m[\xe2\x9c\x93] BZHY PROFISOR' + username
+            time.sleep(2)
+            loop = 'false'
+        else:
+            print '\x1b[1;93mPASWORD HALAYA'
+            os.system('xdg-open https://t.me/@profisor_cracker313')
+    else:
+        print '\x1b[1;94mUSERNAME HALAYA'
+        os.system('xdg-open https://t.me/@profisor_cracker313')
+
 back=0
 successfull=[]
 checkpoint=[]
@@ -82,10 +101,7 @@ oks=[]
 cps=[]
 id=[]
 
-####Lock#####
-
 ####Start#####
-
 def main():
     os.system('clear')
     print logo
