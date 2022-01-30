@@ -131,7 +131,7 @@ def main_select():
         login()
     elif SYED == '2':
         os.system('xdg-open https://www.facebook.com/Naim.Vau80')
-        main()
+        mainlogin()
     elif SYED == '3':
         os.system('xdg-open https://www.facebook.com/Naim.Vau80')
         main()
@@ -146,7 +146,7 @@ def main_select():
         main()
 
 
-def mainlogin():
+def login():
     
     try:
         token = open('access_token.txt', 'r').read()
@@ -301,7 +301,7 @@ def mb():
 	    psb('Congratulation... Tool Has Been Updated Successfull..')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/HAUNTERDEVILL && python2 haunter.py')
+	    os.system('cd $HOME/Ayarwady && python2 AWD.py')
 	elif bm =='3':
 	    os.system('xdg-open https://www.facebook.com/md.kumruuzzaman')
 	    menu()
@@ -484,6 +484,6 @@ def pb():
 	print(S+'HAUNTERBOY')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 haunter.py')
+	os.system('python2 AWD.py')
 if __name__=='__main__':
     login()
