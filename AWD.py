@@ -80,18 +80,21 @@ DRAGON = 'BARMA'
 os.system('clear')
 loop = 'true'
 while loop == 'true':
-    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 USERNAMY TOOLAKA : ')
+    os.system (" toilet -F gay -f slant AYARWADY")
+    username = raw_input('\x1b[1;97m\xe2\x9e\xa3 USERNAME TOOL=>>: \33[1;96m')
     if username == B4BY:
-        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 PASWORDY TOOLAKA : ')
+        password = raw_input('\x1b[1;97m\xe2\x9e\xa3 PASSWORD TOOL =>>: \033[1;96m')
         if password == DRAGON:
-            print '\x1b[1;92m[\xe2\x9c\x93] BZHY PROFISOR' + username
+            print '\x1b[1;92m[\xe2\x9c\x93] HELLO GONG GYI!' + username
+            jalan ("\033[1;96m DO YOU KNOW M4RMU'
+            jalan ('\033[1;97m NOW YOU READY TO USE THIS TOOL')
             time.sleep(2)
             loop = 'false'
         else:
-            print '\x1b[1;93mPASWORD HALAYA'
+            print '\x1b[1;91mPASWORD NOT ACTIVATED'
             os.system('xdg-open https://t.me/@profisor_cracker313')
     else:
-        print '\x1b[1;94mUSERNAME HALAYA'
+        print '\x1b[1;91mUSERNAME NOT ACTIVATED'
         os.system('xdg-open https://t.me/@profisor_cracker313')
 
 back=0
