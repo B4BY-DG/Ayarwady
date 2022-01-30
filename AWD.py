@@ -465,8 +465,8 @@ def pb():
 			                                                    cps.append(user+ps6)
 			                                                else:
 			                                                    if 'access_token' in k:
-			                                                    print(G+'[LOG IN AFTER 72HOURS] 》》》》 '+user+' 》》》》 '+ps6)
-			                                                    oks.append(user+ps7)
+			                                                        print(G+'[LOG IN AFTER 72HOURS] 》》》》 '+user+' 》》》》 '+ps6)
+			                                                        oks.append(user+ps7)
 
 
 		except:
