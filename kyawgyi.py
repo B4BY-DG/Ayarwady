@@ -36,7 +36,7 @@ try:
 except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
-    os.system('python2 Kyawgyi.py')
+    os.system('python2 kyawgyi.py')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -53,7 +53,7 @@ br.addheaders = [('User-Agent', 'Mozilla/5.0 (Linux; Android 10; Redmi Note 7) A
 br.addheaders = [('user-agent', 'Mozilla/5.0 (Linux; Android 10; moto e(7) Build/QOFS30.569-36-10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36[FBAN/EMA;FBLC/es_LA;FBAV/288.0.0.11.115;]')]
 
 def htwat():
-	print 'Thanks Gong Gyi.'
+	print '\033[1;93mThanks Gong Gyi'
 	os.sys.exit()
 
 def acak(b):
